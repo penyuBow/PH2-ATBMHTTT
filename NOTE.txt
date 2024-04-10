@@ -1,0 +1,17 @@
+Pluggable database is PDB0
+PDB0's Admin User: PH2/PH2
+PDB0's OLS Admin User: PH2_OLS/PH2
+
+Run order:
+1. SYS --> pdb_admin
+
+2. PH2 --> pdb_tables
+3. PH2 --> pdb_data
+4. PH2 --> pdb_roles
+
+5. SYS --> pdb_policies
+6. SYS --> pdb_ols_0
+
+7. PH2_OLS --> pdb_ols_1
+
+8. SYS --> pdb_audit
